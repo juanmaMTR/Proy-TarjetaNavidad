@@ -63,7 +63,9 @@ header nav a:hover{
 }
 h1{
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 3% 0%; /*CUendo meto el margin el footer se sube*/
 }
 #img{
 	float: left;
@@ -82,4 +84,23 @@ section{
 	overflow: hidden;
 	margin: 0px auto 3rem auto;
 	clear: left;
+}
+.parallax1{
+	margin-bottom: 2rem;
+	height: 15rem;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../recursos/img/parallax1.jpg);
+}
+/*Poner para que el ancla se vea correctamente*/
+
+footer{
+	clear: left;
+	background-color: #1C6E8C;
+	color: white;
+	box-shadow: 0px -3px 7px black;
+    overflow: hidden;
 }
