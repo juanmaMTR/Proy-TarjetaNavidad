@@ -96,10 +96,25 @@ section{
 	background-image: url(../recursos/img/parallax1.jpg);
 }
 /*Poner para que el ancla se vea correctamente*/
+/*https://cesar.pe/blog/error-en-menu-ancla-con-cabecera-fija-solucionado/*/
+/*https://desarrolloweb.com/articulos/pasos-para-ejecutar-jquery.html*/
+#video div{
+	text-align: center;
+}
+.parallax2{
+	margin-bottom: 2rem;
+	height: 15rem;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../recursos/img/parallax1.jpg);
+}
 
 footer{
 	clear: left;
-	background-color: #1C6E8C;
+	background-color: #282828;
 	color: white;
 	box-shadow: 0px -3px 7px black;
     overflow: hidden;
