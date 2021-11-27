@@ -117,5 +117,50 @@ footer{
 	background-color: #282828;
 	color: white;
 	box-shadow: 0px -3px 7px black;
-    overflow: hidden;
+    
+}
+#footerWrapper{
+	overflow: hidden;
+}
+#footerMenu{
+	float: left;
+	padding: 1%;
+}
+#contactar{
+	float: left;
+	padding: 1%;
+}
+footer ul{
+	list-style-type: none;
+}
+footer li{
+	margin-bottom: 0.3rem;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+#social{
+	float: right;
+	margin: 1%;
+}
+#footerdown{
+	background-color: #181818;
+	line-height: 2rem;
+}
+#privacidad{
+	display: inline;
+	margin-left: 1%;
+}
+#privacidad a{
+	text-decoration: underline;
+}
+#licencia{
+	float: right;
+	display: inline;
+	margin-right: 1%;
+}
+#evg{
+	font-weight: bold;
+	text-decoration: none;
 }
