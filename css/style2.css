@@ -140,6 +140,9 @@ footer a{
 	text-decoration: none;
 	color: white;
 }
+i{
+	margin: 3%;
+}
 #social{
 	float: right;
 	margin: 1%;
