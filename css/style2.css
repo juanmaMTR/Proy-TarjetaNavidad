@@ -111,12 +111,13 @@ section{
 	background-size: cover;
 	background-image: url(../recursos/img/parallax2.jpg);
 }
-#eleccion{
-	width: 48%;
-	float: left;
+.eleccion{
+	width: 30%;
+	
 }
-#eleccion img{
+.eleccion img{
 	width: 100%;
+	float: left;
 }
 footer{
 	clear: left;
