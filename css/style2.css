@@ -113,12 +113,16 @@ section{
 }
 .eleccion{
 	width: 30%;
-	
+	float: left;
 }
 .eleccion img{
 	width: 100%;
-	float: left;
 }
+#frases2{
+	clear: left;
+	
+}
+
 footer{
 	clear: left;
 	background-color: #282828;
