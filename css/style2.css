@@ -120,9 +120,12 @@ section{
 }
 #frases2{
 	clear: left;
-	
 }
-
+input[type=submit]{
+	display: block;
+	clear: both;
+	margin: auto;
+}
 footer{
 	clear: left;
 	background-color: #282828;
