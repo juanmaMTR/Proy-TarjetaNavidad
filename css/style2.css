@@ -23,6 +23,7 @@ header{
     position: fixed;
 	top: 0px;
 	left: 0px;
+	z-index: 1;
 }
 header img{
     /*margin: 10px;*/
@@ -115,7 +116,15 @@ section{
 	width: 30%;
 	float: left;
 }
+.eleccion1{
+	width: 30%;
+	float: left;
+	margin-right: 22.2222%;
+}
 .eleccion img{
+	width: 100%;
+}
+.eleccion1 img{
 	width: 100%;
 }
 #frases2{
@@ -125,6 +134,14 @@ input[type=submit]{
 	display: block;
 	clear: both;
 	margin: auto;
+	width: 10%;
+	border: 3px skyblue solid;
+	background-color: #1C6E8C;
+}
+input[type=submit]:hover{
+	background-color: #2787aa;
+	color: white;
+	transition: all 2s ease;
 }
 footer{
 	clear: left;
