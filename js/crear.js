@@ -31,6 +31,10 @@ function iniciar(){
         }
     }
 }
+/**
+ * Función para leer una cookie
+ * @returns Devuelve el valor de la cookie
+ */
 function leerCookie(){
     let name="eleccion="
     let ca=document.cookie.split(';')
@@ -45,6 +49,19 @@ function leerCookie(){
     }
     return ''
 }
+/**
+ * Función para crear la tarjeta
+ * @param {*} frase 
+ */
 function tarjeta(frase){
     console.log(frase);
+    //Cojo el div de la tarjeta
+    let divtarjeta=document.getElementById('tarjeta')
+    divtarjeta.style.width='100%'
+    //Creo el elemento para la imagen
+    let img=document.createElement('img')
+    img.src='recursos/img/tarjeta.jpg'
+    img.style.width='100%'
+    divtarjeta.appendChild(img)
+    
 }
