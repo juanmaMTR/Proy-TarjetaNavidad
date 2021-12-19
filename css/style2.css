@@ -48,12 +48,11 @@ header nav a{
 	font-weight: bold;
 	padding: 0px 0.9rem;
 	text-decoration: none;
-	color: black;
+	color: white;
 	transition: all 500ms ease;
 }
 header nav a:hover{
 	background-color: #2787aa;
-	color: white;
 }
 #solidaridad{
     /*width: 1200px;*/
@@ -67,7 +66,7 @@ h1{
     text-align: center;
     font-size: 3rem;
     font-family: 'Roboto', sans-serif;
-    margin: 3% 0%; /*CUendo meto el margin el footer se sube*/
+    margin: 3% 0%; 
 }
 #img{
 	float: left;
@@ -138,10 +137,10 @@ input[type=submit]{
 	width: 10%;
 	border: 3px skyblue solid;
 	background-color: #1C6E8C;
+	color: white;
 }
 input[type=submit]:hover{
 	background-color: #2787aa;
-	color: white;
 	transition: all 2s ease;
 }
 footer{

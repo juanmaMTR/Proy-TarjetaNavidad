@@ -68,7 +68,10 @@ function tarjeta(frase){
     p.innerHTML=frase
     p.style.textAlign='center'
     p.style.fontFamily='Imperial Script'
+    p.style.fontSize='3rem'
     divfrase.appendChild(p)
+    divfrase.style.width='40%'
     divfrase.style.position='absolute'
-    divfrase.style.top='200px'
+    divfrase.style.top='500px'
+    divfrase.style.right='20%'
 }
