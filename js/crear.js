@@ -57,11 +57,18 @@ function tarjeta(frase){
     console.log(frase);
     //Cojo el div de la tarjeta
     let divtarjeta=document.getElementById('tarjeta')
+    let divfrase=document.getElementById('frasecrear')
     divtarjeta.style.width='100%'
     //Creo el elemento para la imagen
     let img=document.createElement('img')
     img.src='recursos/img/tarjeta.jpg'
     img.style.width='100%'
     divtarjeta.appendChild(img)
-    
+    let p=document.createElement('p')
+    p.innerHTML=frase
+    p.style.textAlign='center'
+    p.style.fontFamily='Imperial Script'
+    divfrase.appendChild(p)
+    divfrase.style.position='absolute'
+    divfrase.style.top='200px'
 }
